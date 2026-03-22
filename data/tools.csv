@@ -1,0 +1,72 @@
+﻿name,category,description,website,pricing,tags
+ChatGPT,Conversational AI,"The world's most popular AI chatbot by OpenAI, capable of writing, coding, analysis, and creative tasks.",https://chat.openai.com,Freemium,"chatbot,writing,coding,OpenAI"
+Claude,Conversational AI,"Anthropic's AI assistant known for thoughtful, nuanced, and safe responses with a large context window.",https://claude.ai,Freemium,"chatbot,writing,safety,Anthropic"
+Gemini,Conversational AI,Google's multimodal AI assistant that integrates with Google Workspace and understands text images and code.,https://gemini.google.com,Freemium,"chatbot,multimodal,Google,coding"
+Midjourney,Image Generation,Industry-leading AI art generator that creates stunning photorealistic and artistic images from text prompts.,https://midjourney.com,Paid,"image,art,creative,design"
+DALL-E 3,Image Generation,OpenAI's state-of-the-art image generation model built into ChatGPT for photorealistic and artistic visuals.,https://openai.com/dall-e-3,Freemium,"image,art,OpenAI,creative"
+Stable Diffusion,Image Generation,Open-source text-to-image model that runs locally or in the cloud with full customizability and no restrictions.,https://stability.ai,Free,"image,open-source,local,art"
+GitHub Copilot,Code Assistant,AI pair programmer for VS Code and JetBrains that suggests code completions and entire functions in real time.,https://github.com/features/copilot,Freemium,"coding,autocomplete,GitHub,IDE"
+Cursor,Code Assistant,AI-first code editor built on VS Code with deep codebase understanding for chat-driven software development.,https://cursor.sh,Freemium,"coding,editor,IDE,AI-native"
+Tabnine,Code Assistant,AI code completion tool that works across 80+ languages and integrates with all major IDEs securely.,https://tabnine.com,Freemium,"coding,autocomplete,multi-language,IDE"
+Notion AI,Productivity,AI-powered writing and summarization built directly inside Notion for notes docs and project management.,https://notion.so/product/ai,Paid,"productivity,writing,notes,Notion"
+Otter.ai,Productivity,Real-time AI meeting transcription and summarization tool that integrates with Zoom Teams and Google Meet.,https://otter.ai,Freemium,"productivity,transcription,meetings,voice"
+Perplexity AI,Search & Research,AI-powered search engine that provides cited answers with real-time web data instead of blue links.,https://perplexity.ai,Freemium,"search,research,web,citations"
+Perplexity AI,Search AI,AI-powered search engine with real-time answers,https://www.perplexity.ai,Freemium,"search,AI,answers"
+Runway ML,Video Generation,AI video editing and generation platform,https://runwayml.com,Freemium,"video,editing,AI"
+Pika Labs,Video Generation,AI video generation from text prompts,https://pika.art,Freemium,"video,AI,creative"
+Synthesia,AI Video Avatar,Create AI avatar videos from text,https://www.synthesia.io,Paid,"video,avatar,AI"
+ElevenLabs,Text to Speech,AI voice generation and cloning,https://www.elevenlabs.io,Freemium,"voice,AI,speech"
+Notion AI,Productivity,AI writing and productivity assistant,https://www.notion.so,Freemium,"notes,writing,AI"
+Grammarly AI,Writing Assistant,AI grammar and writing enhancement,https://www.grammarly.com,Freemium,"writing,grammar"
+Canva AI,Design,AI-powered design tools and templates,https://www.canva.com,Freemium,"design,graphics"
+Leonardo AI,Image Generation,AI image generation for art and assets,https://leonardo.ai,Freemium,"image,AI"
+Hugging Face,ML Platform,Open-source AI models and datasets,https://huggingface.co,Free,"models,AI,ML"
+Copy.ai,Marketing,AI copywriting tool,https://www.copy.ai,Freemium,"copywriting,marketing"
+Jasper AI,Marketing,AI content writing platform,https://www.jasper.ai,Paid,"content,marketing"
+Writesonic,Marketing,AI writing assistant,https://writesonic.com,Freemium,"writing,seo"
+Surfer SEO,SEO,AI SEO optimization tool,https://surferseo.com,Paid,"seo,content"
+Frase,SEO,AI content optimization,https://www.frase.io,Paid,"seo,content"
+Durable AI,Website Builder,AI website builder in seconds,https://durable.co,Freemium,"website,builder"
+10Web AI,Website Builder,AI WordPress builder,https://10web.io,Freemium,"wordpress,AI"
+Hostinger AI,Website Builder,AI website builder,https://www.hostinger.com,Freemium,"hosting,AI"
+GitHub Copilot,Coding,AI coding assistant,https://github.com/copilot,Paid,"coding,AI"
+Codeium,Coding,Free AI coding assistant,https://codeium.com,Free,"coding,AI"
+Tabnine,Coding,AI code completion tool,https://www.tabnine.com,Freemium,"coding,AI"
+Replit Ghostwriter,Coding,AI coding help in Replit,https://replit.com,Paid,coding
+Cursor AI,Coding,AI-first code editor,https://cursor.sh,Freemium,"coding,AI"
+DeepL,Translation,AI translation tool,https://www.deepl.com,Freemium,translation
+Google Translate AI,Translation,AI-powered translation,https://translate.google.com,Free,translation
+Otter.ai,Productivity,AI meeting notes,https://otter.ai,Freemium,"meetings,notes"
+Fireflies AI,Productivity,Meeting transcription AI,https://fireflies.ai,Freemium,meetings
+Tome AI,Presentation,AI presentation creator,https://tome.app,Freemium,presentation
+Gamma AI,Presentation,AI slides generator,https://gamma.app,Freemium,slides
+Beautiful.ai,Presentation,AI presentation design,https://www.beautiful.ai,Paid,slides
+Luma AI,3D,AI 3D capture and generation,https://lumalabs.ai,Freemium,"3d,AI"
+Kaiber,Video Generation,AI video creation,https://kaiber.ai,Paid,video
+CapCut AI,Video Editing,AI-powered video editing,https://www.capcut.com,Free,"video,editing"
+Descript,Audio/Video,Edit audio/video with AI,https://www.descript.com,Freemium,"audio,video"
+VEED.io,Video Editing,Online AI video editor,https://www.veed.io,Freemium,video
+PlayHT,Text to Speech,AI voice generator,https://play.ht,Freemium,voice
+Murf AI,Text to Speech,AI voiceover generator,https://murf.ai,Paid,voice
+Rephrase AI,Avatar,AI talking avatars,https://www.rephrase.ai,Paid,avatar
+Colossyan,Avatar,AI video avatars,https://www.colossyan.com,Paid,avatar
+Character AI,Chatbot,Conversational AI characters,https://character.ai,Free,chatbot
+Janitor AI,Chatbot,AI chatbot platform,https://janitorai.com,Free,chatbot
+You.com,Search AI,AI search engine,https://you.com,Free,search
+Phind,Search AI,Developer-focused AI search,https://phind.com,Free,"search,coding"
+Elicit,Research,AI research assistant,https://elicit.org,Free,research
+Consensus,Research,AI research summaries,https://consensus.app,Free,research
+Scite,Research,AI paper citations tool,https://scite.ai,Paid,research
+Looka,Design,AI logo generator,https://looka.com,Paid,"logo,design"
+Brandmark,Design,AI branding tool,https://brandmark.io,Paid,branding
+Remove.bg,Image Editing,Remove image backgrounds,https://remove.bg,Freemium,image
+Cleanup.pictures,Image Editing,AI object removal,https://cleanup.pictures,Freemium,image
+Clipdrop,Image Editing,AI image tools,https://clipdrop.co,Freemium,image
+NightCafe,Image Generation,AI art generator,https://nightcafe.studio,Freemium,art
+Dream by Wombo,Image Generation,AI art generator,https://www.wombo.art,Freemium,art
+Pixlr AI,Image Editing,AI photo editing,https://pixlr.com,Freemium,photo
+PhotoRoom,Image Editing,AI product photos,https://www.photoroom.com,Freemium,photo
+Taskade,Productivity,AI task manager,https://taskade.com,Freemium,tasks
+ClickUp AI,Productivity,AI project management,https://clickup.com,Freemium,project
+Zapier AI,Automation,AI workflow automation,https://zapier.com,Freemium,automation
+Make.com AI,Automation,AI automation platform,https://make.com,Freemium,automation

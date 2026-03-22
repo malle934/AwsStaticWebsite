@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Discover and compare the best AI tools across coding, writing, image generation, productivity, and more — all in one place." />
+    <title>AI Tools Directory | Discover the Best AI Tools</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="AI Tools Directory" />
+    <meta property="og:description" content="Browse 100+ AI tools filtered by category, pricing, and use case." />
+    <meta property="og:type" content="website" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Preconnect for Google Fonts (loaded in CSS) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Favicon (inline SVG data URI) -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text y='.9em' font-size='70' x='12' fill='white' font-family='system-ui'>✦</text></svg>" />
+</head>
+
+<body>
+
+    <!-- Skip navigation link for screen readers -->
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- ── Header ─────────────────────────────────────────────────────────── -->
+    <header role="banner">
+        <div class="header-inner">
+            <div class="header-brand">
+                <h1>✦ AI Tools Directory</h1>
+                <span class="header-subtitle">Discover &amp; compare the best AI tools in one place</span>
+            </div>
+            <button id="themeToggle" aria-label="Switch to dark mode" title="Toggle dark / light mode">
+                🌙
+            </button>
+        </div>
+    </header>
+
+    <!-- ── Controls Section ───────────────────────────────────────────────── -->
+    <section class="controls-section" aria-label="Search and filter tools">
+        <div class="controls-inner">
+
+            <!-- Search -->
+            <div class="search-wrapper">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+                <label for="searchInput" class="sr-only">Search tools by name, description, or tags</label>
+                <input type="search" id="searchInput" placeholder="Search by name, description, or tags…"
+                    autocomplete="off" spellcheck="false" />
+            </div>
+
+            <!-- Filters row -->
+            <div class="filter-row" role="group" aria-label="Filter options">
+
+                <div class="filter-group">
+                    <label for="categoryFilter">Category</label>
+                    <select id="categoryFilter" aria-label="Filter by category">
+                        <option value="">All Categories</option>
+                        <!-- Populated by JS -->
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="pricingFilter">Pricing</label>
+                    <select id="pricingFilter" aria-label="Filter by pricing model">
+                        <option value="">All Pricing</option>
+                        <option value="Free">Free</option>
+                        <option value="Freemium">Freemium</option>
+                        <option value="Paid">Paid</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="sortFilter">Sort</label>
+                    <select id="sortFilter" aria-label="Sort tools">
+                        <option value="name-asc">Name A → Z</option>
+                        <option value="name-desc">Name Z → A</option>
+                        <option value="category">Category</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Results Bar ────────────────────────────────────────────────────── -->
+    <div class="results-bar" role="status" aria-live="polite" aria-atomic="true">
+        <span id="resultsCount">Loading…</span>
+        <button id="clearFilters" aria-label="Clear all filters">✕ Clear filters</button>
+    </div>
+
+    <!-- ── Main Content ───────────────────────────────────────────────────── -->
+    <main id="main">
+
+        <!-- Tools Grid -->
+        <div id="toolsGrid" role="list" aria-label="AI tools">
+            <!-- Cards injected by app.js -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="emptyState" role="alert" aria-live="assertive">
+            <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+            </svg>
+            <h3>No tools match your filters</h3>
+            <p>Try broadening your search or clearing some filters to see more results.</p>
+            <button id="emptyStateClear" class="visit-btn" style="max-width:200px;margin-top:.5rem"
+                onclick="document.getElementById('clearFilters').click()">
+                Clear filters
+            </button>
+        </div>
+
+    </main>
+
+    <!-- ── Modal ──────────────────────────────────────────────────────────── -->
+    <div id="modalOverlay" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Tool details"
+        aria-hidden="true">
+        <div class="modal" id="modal">
+            <button id="modalClose" class="modal-close" aria-label="Close dialog">✕</button>
+            <div id="modalContent">
+                <!-- Populated by app.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ── Footer ─────────────────────────────────────────────────────────── -->
+    <footer role="contentinfo">
+        <div class="footer-inner">
+
+            <div class="footer-top">
+                <a href="https://github.com/malle934" target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub repository">
+                    <!-- GitHub Octocat SVG -->
+                    <svg width="24" height="24" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true">
+                        <path d="M32 10.8C20.3 10.8 10.8 20.3 10.8 32c0 9.4 6.1 17.4 14.6 20.2
+                            1.1.2 1.4-.5 1.4-1 0-.5 0-2-.1-3.8-5.9 1.3-7.2-2.5-7.2-2.5-.9-2.4-2.3-3-2.3-3
+                            -1.9-1.3.1-1.2.1-1.2 2.1.1 3.2 2.1 3.2 2.1 1.8 3.1 4.8 2.2 6 1.7.2-1.3.7-2.2
+                            1.3-2.7-4.6-.5-9.4-2.3-9.4-10.2 0-2.3.8-4.1 2.1-5.6-.2-.5-.9-2.6.2-5.4
+                            0 0 1.7-.5 5.6 2.1 1.6-.4 3.3-.7 5-.7s3.4.2 5 .7c3.9-2.6 5.6-2.1 5.6-2.1
+                            1.1 2.7.4 4.8.2 5.4 1.3 1.4 2.1 3.3 2.1 5.6 0 7.9-4.8 9.7-9.4 10.2.7.6 1.4
+                            1.9 1.4 3.8 0 2.8-.1 5-.1 5.7 0 .6.4 1.2 1.4 1C47.1 49.4 53.2 41.4 53.2 32
+                            53.2 20.3 43.7 10.8 32 10.8z" />
+                    </svg>
+                    <strong>GitHub</strong>
+                </a>
+            </div>
+
+            <div class="footer-bottom">
+                <span>© 2026 AI Tools Directory · Built with plain HTML, CSS &amp; JS</span>
+                <span class="footer-badge">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                    Deployed on S3 + CloudFront
+                </span>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- ── App Script ──────────────────────────────────────────────────────── -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
