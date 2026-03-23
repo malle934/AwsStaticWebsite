@@ -48,7 +48,7 @@ Private S3 Bucket (Static Website Files)
 
 ## 📸 Screenshots
 
-![Screenshot 2026-03-22 082349.png](Screenshot.png)
+![Screenshot.png](Screenshot 2026-03-22 082349.png)
 ![Screenshot 2026-03-22 082323.png](Screenshot.png)
 
 ---
